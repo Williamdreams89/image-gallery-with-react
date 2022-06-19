@@ -6,7 +6,7 @@ function Hamburger() {
   const [showMenu, setShowMenu] = useState(false);
 
   const StyledBurger = styled.div`
-    position: fixed;
+    position: absolute;
     right: 25px;
     top: 10px;
     display: flex;
@@ -14,6 +14,7 @@ function Hamburger() {
     gap: 5px;
     transition: all 0.3s ease-in;
     z-index: 2;
+    cursor: pointer;
 
     div {
       width: 2rem;

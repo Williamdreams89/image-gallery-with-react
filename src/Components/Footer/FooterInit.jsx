@@ -23,6 +23,7 @@ function FooterInit() {
       showFooter ? "rotate(180deg)" : "rotate(0)"};
     z-index: 3;
     cursor: pointer;
+    margin-top: 5rem;
   `;
   return (
     <>

@@ -8,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Gallery />
+      <div style={{"height": "15rem"}}></div>
       <FooterInit />
     </div>
   )
