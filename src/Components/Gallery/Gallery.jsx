@@ -34,7 +34,7 @@ function Gallery() {
     justify-content: space-between;
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
-    width: 90vw;
+    width: 91vw;
     margin: 0 auto;
     padding: 6px;
 
