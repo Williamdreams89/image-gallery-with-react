@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+import { SRLWrapper } from "simple-react-lightbox";
 
 function Gallery() {
   const images = [
@@ -61,7 +62,7 @@ function Gallery() {
   `;
 
   const StyledImageDisplay = styled.div`
-    width: 90vw;
+    width: 91vw;
     margin: auto;
     img {
       width: 100%;
@@ -76,7 +77,7 @@ function Gallery() {
       column-width: 100%;
     }
 
-    @media  screen and (min-width: 661px) and (max-width: 960px){
+    @media screen and (min-width: 661px) and (max-width: 960px) {
       -moz-column-count: 2;
       -webkit-column-count: 2;
       column-count: 2;
@@ -85,7 +86,7 @@ function Gallery() {
       // column-width: 50%;
     }
 
-    @media (min-width: 961px){
+    @media (min-width: 961px) {
       -moz-column-count: 3;
       -webkit-column-count: 3;
       column-count: 3;
@@ -103,13 +104,17 @@ function Gallery() {
         <TagButton setTag={setTag} name="friends" />
         <TagButton setTag={setTag} name="self" />
       </StyledTagButtons>
-      <StyledImageDisplay>
-        {filteredImages.map((image) => (
-          <div>
-            <img src={`/images/${image.imageName}`} alt="" />
-          </div>
-        ))}
-      </StyledImageDisplay>
+      <SRLWrapper>
+        <StyledImageDisplay>
+          {filteredImages.map((image) => (
+            <div>
+              <a href={`/imgages/${image.imageName}`}>
+                <img src={`/images/${image.imageName}`} alt="" />
+              </a>
+            </div>
+          ))}
+        </StyledImageDisplay>
+      </SRLWrapper>
     </>
   );
 }
