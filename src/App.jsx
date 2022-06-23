@@ -11,7 +11,7 @@ function App() {
       <SimpleReactLightbox>
         <Gallery />
       </SimpleReactLightbox>
-      <div style={{ height: "17rem" }}></div>
+      <div style={{ height: "19rem" }}></div>
       <FooterInit />
     </div>
   );
