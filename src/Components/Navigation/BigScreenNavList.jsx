@@ -13,7 +13,7 @@ function BigScreenNavList() {
             text-decoration: none;
             font-size: 1.3rem;
             padding: 3px 15px;
-            border-radius: 20px;
+            border-radius: 21px;
             transition: .3s ease;
 
             &:hover{

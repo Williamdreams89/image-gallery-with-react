@@ -30,7 +30,7 @@ function Hamburger() {
       }
       &:nth-child(2) {
         transform: ${({ showMenu }) =>
-          showMenu ? "translateX(100px)" : "translateX(0)"};
+          showMenu ? "translateX(1000px)" : "translateX(0)"};
       }
       &:nth-child(3) {
         transform: ${({ showMenu }) =>

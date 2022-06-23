@@ -16,7 +16,7 @@ function FooterHero({showFooter}) {
     justify-content:space-around;
     color: grey;
     padding-top: 1.5rem;
-    transition: .3s ease-out;
+    transition: .4s ease-out;
 
     .footer__item{
         border-bottom: 4px solid grey;

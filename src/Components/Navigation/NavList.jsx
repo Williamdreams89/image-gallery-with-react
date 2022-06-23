@@ -13,7 +13,7 @@ function NavList({showMenu, setShowMenu}) {
         list-style: none;
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 3.1rem;
         justify-content: center;
         align-items: center;
 

@@ -21,7 +21,7 @@ function FooterInit() {
     align-items: center;
     transform: ${({ showFooter }) =>
       showFooter ? "rotate(180deg)" : "rotate(0)"};
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
     margin-top: 5rem;
   `;

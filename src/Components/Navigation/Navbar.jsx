@@ -15,7 +15,7 @@ function Navbar({ showMenu }) {
     }
     @media screen and (max-width: 760px) {
       h2 {
-        padding: 10px 25px;
+        padding: 10px 26px;
       }
     }
   `;

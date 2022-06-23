@@ -62,7 +62,7 @@ function Gallery() {
   `;
 
   const StyledImageDisplay = styled.div`
-    width: 90vw;
+    width: 91vw;
     margin: auto;
     img {
       width: 100%;
